@@ -1,0 +1,128 @@
+body{
+    font-family: 'Hedvig Letters Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif;
+}
+a{
+   text-decoration: none;
+}
+li{
+    list-style: none;
+ 
+
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.menu__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 32px;
+    border: 1px;
+}
+.menu__link{
+    color: #212121;
+   
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+.menu__linkk{
+    color: #2196F3;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 0.28px;
+}
+
+.buttons-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+.buttons-section-item{
+  border-radius: 4px;
+    border-color: inherit;
+    box-shadow: none;
+    text-decoration: none;
+    border: inherit;
+    
+    
+}
+.buttons-section-item:hover{
+    border-radius: 4px;
+    color: #FFF;
+    background: #2196F3;
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+.buttons-section-item:nth-child(1){
+width: 73px;
+height: 38px;
+flex-shrink: 0;
+}
+.buttons-section-item:nth-child(2){
+    width: 125px;
+height: 38px;
+flex-shrink: 0;
+}
+.buttons-section-item:nth-child(3){
+    width: 112px;
+height: 38px;
+flex-shrink: 0;
+}
+.buttons-section-item:nth-child(4){
+    width: 103px;
+height: 38px;
+flex-shrink: 0;
+}
+.buttons-section-item:nth-child(5){
+    width: 130px;
+height: 38px;
+flex-shrink: 0;
+text-align: center;
+vertical-align: middle;
+
+}
+
+.card{
+    width: 370px;
+    height: 404px;
+    flex-shrink: 0;
+    box-shadow: 1px 2px 4px rgba(238, 238, 238, 1);
+    background:  rgb(255, 255, 255) 50% / cover no-repeat;
+}   
+.card:hover{
+    box-shadow: 2px 4px 8px grey;
+}
+
+.f3i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 48px;
+}
+.s3i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 48px;
+}
+.t3i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 48px;
+}
